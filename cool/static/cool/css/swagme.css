@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(193, 189, 189);
+}
+.main img{
+    object-fit: cover;
+}

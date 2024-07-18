@@ -1,0 +1,25 @@
+body{
+    background-color:whitesmoke;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+ img {
+  margin-left: 350px; 
+  margin-top: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 45vw;
+  height: 65vh;
+}
+.main p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
