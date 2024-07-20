@@ -18,10 +18,13 @@ from django.contrib import admin
 from django.urls import path
 from cool.views import *
 
+
+
 urlpatterns = [
 
     path('swag/',swag),
     path('swag/me/',swagme2),
     path('swag/me/and/you/',swagmeandyou3),
+     path('home/',home),
     path('admin/', admin.site.urls),
 ]
