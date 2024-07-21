@@ -22,4 +22,7 @@ def home(request):
 for people in peoples:
     print(people)
 
+
+def customFilter(request):
+    return render(request, 'main/customFilter.html')
  

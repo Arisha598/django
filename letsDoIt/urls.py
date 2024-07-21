@@ -26,5 +26,6 @@ urlpatterns = [
     path('swag/me/',swagme2),
     path('swag/me/and/you/',swagmeandyou3),
      path('home/',home),
+    path('customFilter/',customFilter),
     path('admin/', admin.site.urls),
 ]
